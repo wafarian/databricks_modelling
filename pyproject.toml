@@ -1,0 +1,20 @@
+[project]
+name = "databricks-modelling"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mudiaga Oke", email = "mudiaga.innocent.oke@power.no" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "databricks-connect>=19.1",
+    "databricks-sdk>=0.140.0",
+]
+
+[project.scripts]
+databricks-modelling = "databricks_modelling:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
