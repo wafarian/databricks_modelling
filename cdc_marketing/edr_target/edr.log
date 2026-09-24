@@ -1,0 +1,10 @@
+2026-09-23 21:44:36 — INFO — Running with edr=0.22.0
+2026-09-23 21:44:38 — INFO — Installing packages for edr internal dbt package...
+2026-09-23 21:44:38 — INFO — Running dbt command --log-format json deps --project-dir C:\Users\MUOK00\Documents\GitHub\databricks_modelling\.venv\Lib\site-packages\elementary\monitor\dbt_project --profiles-dir C:\Users\MUOK00\Documents\GitHub\databricks_modelling\cdc_marketing
+2026-09-23 21:51:54 — INFO — Running with edr=0.22.0
+2026-09-23 21:58:39 — INFO — Running with edr=0.22.0
+2026-09-23 21:58:41 — INFO — Installing packages for edr internal dbt package...
+2026-09-23 21:58:41 — INFO — Running dbt command --log-format json deps --project-dir C:\Users\MUOK00\Documents\GitHub\databricks_modelling\.venv\Lib\site-packages\elementary\monitor\dbt_project --profiles-dir C:\Users\MUOK00\Documents\GitHub\databricks_modelling\cdc_marketing
+2026-09-23 23:05:18 — INFO — Running with edr=0.22.0
+2026-09-23 23:05:19 — INFO — Installing packages for edr internal dbt package...
+2026-09-23 23:05:19 — INFO — Running dbt command --log-format json deps --project-dir C:\Users\MUOK00\Documents\GitHub\databricks_modelling\.venv\Lib\site-packages\elementary\monitor\dbt_project --profiles-dir C:\Users\MUOK00\Documents\GitHub\databricks_modelling\cdc_marketing

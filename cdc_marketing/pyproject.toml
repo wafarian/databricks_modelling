@@ -1,0 +1,19 @@
+[project]
+name = "cdc-marketing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mudiaga Oke", email = "mudiaga.innocent.oke@power.no" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-databricks>=1.12.5",
+]
+
+[project.scripts]
+cdc-marketing = "cdc_marketing:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
