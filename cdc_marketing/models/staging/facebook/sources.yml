@@ -1,0 +1,39 @@
+sources:
+  - name: facebook
+    description: "Facebook source data"
+    database: bronze_production
+    schema: cdc_staging
+    config:
+      enabled: true
+      meta: 
+       owner: "data engineer"
+      freshness:
+        warn_after:  
+          count: 1
+          period: day
+
+    tables:
+      - name: campaigns
+        description: "Facebook campaigns data"
+        config:
+          enabled: true
+          event_time: campaign_updated_at
+
+
+      - name: accounts
+        description: "Facebook accounts data"
+        config:
+          enabled: true
+          event_time: account_updated_at
+
+      - name: ads
+        description: "Facebook ads data"
+        config:
+          enabled: true
+          event_time: ad_updated_at        
+
+      - name: adgroup
+        description: "Facebook ad groups data"
+        config:
+          enabled: true
+          event_time: ad_group_updated_at 
